@@ -2,9 +2,8 @@
 
 ### Project Description
 This is a Portfolio landing page built with Laravel, It has a full control panel to control content.
-[Recorded Video for the whole project](https://youtu.be/67eNtTWKtcc "Recorded Video for the whole project")
                 
-### How to Install
+<!-- ### How to Install
 1. Clone the project
 2. Go to the project root directory and run `composer install` and `npm install`
 3. Create `.env` file and copy content from `.env.example`
@@ -16,6 +15,6 @@ This is a Portfolio landing page built with Laravel, It has a full control panel
 ### Demo Account
 - AdminURL: http://127.0.0.1:8000/admin
 - Email: test@example.com
-- Password: password
+- Password: password -->
 
 

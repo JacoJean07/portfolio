@@ -34,7 +34,7 @@
                     <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
                     <div class="typed-text d-none">{{ $user?->job }}</div>
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-                        <a href="{{ $setting->cv_url }}" class="btn btn-outline-light mr-5">Download CV</a>
+                        <a target="_blank" href="{{ $setting->cv_url }}" class="btn btn-outline-light mr-5">Download CV</a>
                         {{-- <button type="button" class="btn-play secondary" data-toggle="modal"
                             data-src="{{$setting->video_url }}" data-target="#videoModal">
                             <span></span>
@@ -305,9 +305,9 @@
     <div class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5">
         <div class="container text-center py-5">
             <div class="d-flex justify-content-center mb-4">
-                <a class="btn btn-light btn-social mr-2" href="{{ $setting->github_url }}"><i class="fab fa-github"></i></a>
-                <a class="btn btn-light btn-social mr-2" href="{{ $setting->fb_url }}"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-light btn-social mr-2" href="{{ $setting->linkedin_url }}"><i class="fab fa-linkedin-in"></i></a>
+                <a target="_blank" class="btn btn-light btn-social mr-2" href="{{ $setting->github_url }}"><i class="fab fa-github"></i></a>
+                <a target="_blank" class="btn btn-light btn-social mr-2" href="{{ $setting->fb_url }}"><i class="fab fa-facebook-f"></i></a>
+                <a target="_blank" class="btn btn-light btn-social mr-2" href="{{ $setting->linkedin_url }}"><i class="fab fa-linkedin-in"></i></a>
             </div>
             <div class="d-flex justify-content-center mb-3">
                 <a class="text-white" href="#">Privacy</a>
@@ -318,7 +318,7 @@
                 <span class="px-3">|</span>
                 <a class="text-white" href="#">Help</a>
             </div>
-            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Domain Name</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
+            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">JacoJean</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" target="_blank" href="https://github.com/JacoJean07">HTML Codex</a>
             </p>
         </div>
     </div>
