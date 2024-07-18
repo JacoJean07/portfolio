@@ -318,7 +318,7 @@
                 <span class="px-3">|</span>
                 <a class="text-white" href="#">Help</a>
             </div>
-            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">JacoJean</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" target="_blank" href="https://github.com/JacoJean07">HTML Codex</a>
+            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">JacoJean.pro</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" target="_blank" href="https://github.com/JacoJean07">JacoJean07</a>
             </p>
         </div>
     </div>
