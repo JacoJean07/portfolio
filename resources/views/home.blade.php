@@ -226,7 +226,7 @@
                         <div class="text-center">
                             <i class="fa fa-3x fa-quote-left text-secondary mb-4"></i>
                             <h4 class="font-weight-light mb-4">{{ $review->description }}</h4>
-                            <img class="img-fluid rounded-circle mx-auto mb-3" src="{{ asset("storage/$review->image") }}" style="width: 80px; height: 80px;">
+                            <img class="img-fluid rounded-circle mx-auto mb-3" src="{{ asset("./$review->image") }}" style="width: 80px; height: 80px;">
                             <h5 class="font-weight-bold m-0">{{ $review->name }} </h5>
                             <span>{{ $review->job }}</span>
                         </div>
@@ -306,7 +306,7 @@
         <div class="container text-center py-5">
             <div class="d-flex justify-content-center mb-4">
                 <a target="_blank" class="btn btn-light btn-social mr-2" href="{{ $setting->github_url }}"><i class="fab fa-github"></i></a>
-                <a target="_blank" class="btn btn-light btn-social mr-2" href="{{ $setting->fb_url }}"><i class="fab fa-facebook-f"></i></a>
+                <a target="_blank" class="btn btn-light btn-social mr-2" href="{{ $setting->fb_url }}"><i class="fa-brands fa-instagram"></i></a>
                 <a target="_blank" class="btn btn-light btn-social mr-2" href="{{ $setting->linkedin_url }}"><i class="fab fa-linkedin-in"></i></a>
             </div>
             <div class="d-flex justify-content-center mb-3">
