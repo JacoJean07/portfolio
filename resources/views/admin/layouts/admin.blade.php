@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Portfolio Admin</title>
     <!-- plugins:css -->
-    <link rel="stylesheet" href="{{ asset('import/assets/admin/vendors/mdi/css/materialdesignicons.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('import/assets/admin/vendors/css/vendor.bundle.base.css')}}">
+    <link rel="stylesheet" href="import/assets/admin/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="import/assets/admin/vendors/css/vendor.bundle.base.css">
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
     <!-- endinject -->
@@ -16,16 +16,16 @@
     <!-- inject:css -->
     <!-- endinject -->
     <!-- Layout styles -->
-    <link rel="stylesheet" href="{{ asset('import/assets/admin/css/style.css')}}">
+    <link rel="stylesheet" href="import/assets/admin/css/style.css">
     <!-- End layout styles -->
-    <link rel="shortcut icon" href="{{ asset('import/assets/admin/images/favicon.ico')}}" />
+    <link rel="shortcut icon" href="import/assets/admin/images/favicon.ico" />
   </head>
   <body>
     <div class="container-scroller">
       <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
         <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-          <a class="navbar-brand brand-logo" href="{{ route('admin.index')}}"><img src="{{ asset('import/assets/admin/images/logo.svg')}}" alt="logo" /></a>
-          <a class="navbar-brand brand-logo-mini" href="index.html"><img src="{{ asset('import/assets/admin/images/logo-mini.svg')}}" alt="logo" /></a>
+          <a class="navbar-brand brand-logo" href="{{ route('admin.index')}}"><img src="import/assets/admin/images/logo.svg" alt="logo" /></a>
+          <a class="navbar-brand brand-logo-mini" href="index.html"><img src="import/assets/admin/images/logo-mini.svg" alt="logo" /></a>
         </div>
         <div class="navbar-menu-wrapper d-flex align-items-stretch">
           <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
@@ -159,21 +159,21 @@
   </div>
   <!-- container-scroller -->
   <!-- plugins:js -->
-  <script src="{{ asset('import/assets/admin/vendors/js/vendor.bundle.base.js')}}"></script>
+  <script src="import/assets/admin/vendors/js/vendor.bundle.base.js"></script>
   <!-- endinject -->
   <!-- Plugin js for this page -->
-  <script src="{{ asset('import/assets/admin/vendors/chart.js/Chart.min.js')}}"></script>
-  <script src="{{ asset('import/assets/admin/js/jquery.cookie.js" type="text/javascript')}}""></script>
+  <script src="import/assets/admin/vendors/chart.js/Chart.min.js"></script>
+  <script src="import/assets/admin/js/jquery.cookie.js" type="text/javascript"></script>
   <!-- End plugin js for this page -->
   <!-- inject:js -->
-  <script src="{{ asset('import/assets/admin/js/off-canvas.js')}}"></script>
-  <script src="{{ asset('import/assets/admin/js/hoverable-collapse.js')}}"></script>
-  <script src="{{ asset('import/assets/admin/js/misc.js')}}"></script>
+  <script src="import/assets/admin/js/off-canvas.js"></script>
+  <script src="import/assets/admin/js/hoverable-collapse.js"></script>
+  <script src="import/assets/admin/js/misc.js"></script>
   <!-- endinject -->
   <!-- Custom js for this page -->
-  <script src="{{ asset('import/assets/admin/js/dashboard.js')}}"></script>
-  <script src="{{ asset('import/assets/admin/js/todolist.js')}}"></script>
-  <script src="{{ asset('import/assets/admin/js/file-upload.js')}}"></script>
+  <script src="import/assets/admin/js/dashboard.js"></script>
+  <script src="import/assets/admin/js/todolist.js"></script>
+  <script src="import/assets/admin/js/file-upload.js"></script>
   <!-- End custom js for this page -->
 </body>
 </html>
