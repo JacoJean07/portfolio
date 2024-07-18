@@ -47,7 +47,6 @@
                 <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
                 <a href="#testimonial" class="nav-item nav-link">Review</a>
             </div>
-            <a href="mailto:{{ $user?->email }}" class="btn btn-outline-secondary d-none d-lg-block">Hire Me</a>
         </div>
     </nav>
     <!-- Navbar End -->
