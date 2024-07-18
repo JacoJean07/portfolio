@@ -34,6 +34,8 @@
         <a href="#home" class="navbar-brand ml-lg-3">
             <h1 class="m-0 display-5"><span class="text-secondary">Jaco</span> Jean</h1>
         </a>
+        <!-- imagen chikita de alya -->
+        <img src="img/alya.jpg" class="rounded-circle" alt="alya" style="width: 50px; height: 50px;">
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
