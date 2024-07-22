@@ -11,6 +11,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Admin\ReviewController;
 use App\Http\Controllers\Admin\SettingController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\GiselaController;
 use App\Mail\ContactMail;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail;
@@ -46,5 +47,7 @@ Route::middleware(['auth','isAdmin'])->name('admin.')->prefix('/admin')->group(f
     Route::resource('/aboutme', AboutmeController::class);
     Route::resource('/setting', SettingController::class);
 });
+
+Route::get('/gisela', [GiselaController::class, 'index'])->name('gisela');
 
 Auth::routes();
